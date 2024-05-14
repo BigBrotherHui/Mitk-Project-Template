@@ -127,7 +127,7 @@ endif()
 set(${PROJECT_NAME}_MODULES_PACKAGE_DEPENDS_DIR "${PROJECT_SOURCE_DIR}/CMake/PackageDepends")
 set(MODULES_PACKAGE_DEPENDS_DIRS ${${PROJECT_NAME}_MODULES_PACKAGE_DEPENDS_DIR})
 
-find_package(MITK 2018.04.99 REQUIRED)
+find_package(MITK REQUIRED)
 find_package(OpenMP REQUIRED)
 
 if(COMMAND mitkFunctionCheckMitkCompatibility)
